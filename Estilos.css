@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+
+ #navbar {
+   background: orange;
+   color: white;
+   overflow: auto;
+ }
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li{
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  border-color: #3d8e33;
+  background: #FFF;
+  color: orange;
+  text-decoration: none;
+}
+
+/*------<!--Paso 5--> */
+.text-primary {
+  color:Black;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: Black;
+  background: orange;
+  padding: 13px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: white;
+}
+
+#main-footer {
+  text-align: center;
+  background: orange;
+  color: #fff;
+  padding: 20px;
+}
+.clr {
+  clear: both;
+}
+.oxo{
+  width: 100%;
+  height: 400px;
+}
+
+.text{
+  text-align: center;
+  font-size: 40px;
+}
+
+.fila1{
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  left: 50px;
+}
+
+.fila2{
+  text-align: center;
+  left: 400px;
+}
+.boton {
+  display: inline-block;
+  position: absolute;
+  top: 800px;
+  font-size: 18px;
+  color: Black;
+  background: #333;
+  padding: 13px 20px;
+  cursor: pointer;
+}
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+.btn2 {
+  position: relative;
+  left: 608px;
+  display: inline-block;
+  font-size: 18px;
+  color: Black;
+  background: orange;
+  padding: 13px 30px;
+  cursor: pointer;
+}
+
+.btn2:hover{
+  background: darkred;
+}
+
+#home-info .info-content {
+  float: right;
+  height: 100%;
+  width: 33%;
+  border: black;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+#home-info .info-content1 {
+  float: center;
+  border: 2px;
+  width: 33%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+#home-info .info-content2 {
+  float: left;
+  width: 33%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+#home-info .info-content p {
+  padding-bottom: 30px
+}
+#home-info {
+  height: 200px;
+}
+ul{
+  list-style: none;
+}
